@@ -1,0 +1,28 @@
+---
+title: "bokaibgwprocess"
+author: "[Bokai Wang](bokai_wang@urmc.rochester.edu)"
+output: html_document
+---
+
+## Introduction
+The Galton–Watson process is a branching stochastic process arising from Francis Galton's statistical investigation of the extinction of family names. The process models family names as patrilineal (passed from father to son), while offspring are randomly either male or female, and names become extinct if the family name line dies out (holders of the family name die without male descendants). This is an accurate description of Y chromosome transmission in genetics, and the model is thus useful for understanding human Y-chromosome DNA haplogroups, and is also of use in understanding other processes (as described below); but its application to actual extinction of family names is fraught. In practice, family names change for many other reasons, and dying out of name line is only one factor, as discussed in examples, below; the Galton–Watson process is thus of limited applicability in understanding actual family name distributions. 
+
+(From Wikipedia, the free encyclopedia)
+
+## Concepts
+Assume, for the sake of the model, that surnames are passed on to all male children by their father. Suppose the number of a man's sons to be a random variable distributed on the set { 0, 1, 2, 3, ... }. Further suppose the numbers of different men's sons to be independent random variables, all having the same distribution.
+
+Then the simplest substantial mathematical conclusion is that if the average number of a man's sons is 1 or less, then their surname will almost surely die out, and if it is more than 1, then there is more than zero probability that it will survive for any given number of generations.
+
+Modern applications include the survival probabilities for a new mutant gene, or the initiation of a nuclear chain reaction, or the dynamics of disease outbreaks in their first generations of spread, or the chances of extinction of small population of organisms; as well as explaining (perhaps closest to Galton's original interest) why only a handful of males in the deep past of humanity now have any surviving male-line descendants, reflected in a rather small number of distinctive human Y-chromosome DNA haplogroups.
+
+A corollary of high extinction probabilities is that if a lineage has survived, it is likely to have experienced, purely by chance, an unusually high growth rate in its early generations at least when compared to the rest of the population.
+
+(From Wikipedia, the free encyclopedia)
+
+## About this function
+This function simplebgwprocess only considers a simple case of (BGW) Branching process.
+
+The number of offspring from one individial can only be 0, 1, 2, or 3 at a prespecified probability.
+
+The x.mat matrix will return the number of individuals in each generation for totally n.sim samples.
