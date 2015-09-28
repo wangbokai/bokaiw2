@@ -26,3 +26,11 @@ This function simplebgwprocess only considers a simple case of (BGW) Branching p
 The number of offspring from one individial can only be 0, 1, 2, or 3 at a prespecified probability.
 
 The x.mat matrix will return the number of individuals in each generation for totally n.sim samples.
+
+## One Simple Eample
+Begin with the ancestor (X0=1), and assume that one individual can only generation offspring from 0, 1, 2, 3 with probabilities 1/2, 1/4, 1/4, 0. 
+
+Then the total number of offspring in the 1st generation is X1=0, 1, 2, or 3 with the probabilities mentioned before.
+
+Similarly, the number of offspring in the 2nd generation is X2=the total number of offspring generated
+by each individual in the 1st generation with the same rule applied before...
