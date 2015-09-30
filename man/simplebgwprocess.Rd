@@ -2,7 +2,7 @@
 \alias{simplebgwprocess}
 \title{BGW Branching process}
 \usage{
-bokai.bgw.process(n, p.vec, n.sim)
+simplebgwprocess(n, p.vec, n.sim)
 }
 \description{
 Prints 'To generate samples from a simple (BGW) Branching process!'.
