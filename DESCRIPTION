@@ -5,6 +5,6 @@ Version: 0.0.1
 Date: 2015-09-11
 Author: Bokai Wang <bokai_wang@urmc.rochester.edu>
 Maintainer: Bokai Wang <bokai_wang@urmc.rochester.edu>
-Description: just for practice about creating R packages
-License: MIT
+Description: I just want to practice about creating R packages.
+License: GPL-3
 LazyData: TRUE
